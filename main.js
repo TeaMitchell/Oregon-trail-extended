@@ -49,6 +49,7 @@ class Wagon {
     }
 }
 
+
 let wagon = new Wagon(2)
 // Create three travelers
 let henrietta = new Traveler('Henrietta')
