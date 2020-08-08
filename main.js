@@ -54,20 +54,22 @@ class Doctor extends Traveler{
 
     constructor (name, food, isHealthy) {
         super (name, food, isHealthy)
- 
+
+        
     }
-    heal(traveler) {
-         this.isHealthy = true
-
-
+    heal(Traveler) {
+        Traveler.isHealthy === true
+        
+        
     }
 }
 
 class Hunter extends Traveler{
-
+    
     constructor(name, food, isHealthy) {
         super(name, food, isHealthy)
-
+        
+        this.food = 2
     }
 
     hunt(name, food, isHealthy){
@@ -80,7 +82,11 @@ class Hunter extends Traveler{
 
     }
 
-    givefood(traveler, numberOfFoodUnits){
+    givefood(Traveler, numberOfFoodUnits){
+        
+        if(this.food > 0){
+         Hunter - numberOfFoodUnits + Traveler
+       }
 
     }
 }
